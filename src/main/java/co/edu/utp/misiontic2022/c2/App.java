@@ -85,11 +85,11 @@ public class App {
         
         //número mayor
         Scanner lector5 = new Scanner(System.in);
-        System.out.println("Introduzca un número: ");
+        System.out.println("Introduzca primer número: ");
         int n1= lector5.nextInt();
-        System.out.println("Introduzca el segundo número: ");
+        System.out.println("Introduzca segundo número: ");
         int n2=lector5.nextInt();
-        System.out.println("Introduzca el tercer número: ");
+        System.out.println("Introduzca tercer número: ");
         int n3=lector5.nextInt();
         System.out.println("El número mayor es: "+ Mayor(n1, n2, n3));
 
